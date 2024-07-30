@@ -1,0 +1,119 @@
+#contact_page {
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.client_title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.client_desc {
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client_imgages {
+    margin: 1rem 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.client_img {
+    object-fit: cover;
+    width: 25%;
+    min-width: 9rem;
+    margin: 0.25rem;
+    padding: 0 1rem;
+
+}
+
+/* #clients {
+    padding: 2rem;
+} */
+
+.contact_title {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 1rem 0 0rem 0;
+}
+
+.contact_desc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contact_form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,
+.email,
+.message {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+
+}
+
+.submit {
+    background: tomato;
+    padding: 0.75rem 3.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.social_links {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.s_link {
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:720px) {
+    .client_imgages {
+        margin: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
